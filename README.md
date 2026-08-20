@@ -40,18 +40,16 @@ The analysis focuses on the following areas:
 - **Order Processing** – Analysis of approval time and order processing patterns
 - **Time-Based Trends** – Analysis of monthly and day-of-week order patterns
 
-- ## Key Insights
+## Key Insights
 
-The analysis provides insights into:
-
-- Overall sales and order performance
-- Product category performance and order contribution
-- Geographic distribution of orders across states
-- Customer payment method preferences
-- Shipping cost patterns in relation to product weight
-- Order approval and processing times
-- Monthly and day-of-week ordering patterns
-- Differences in business and operational performance across regions
+* **Toys dominated product performance**, generating approximately **$9.8M in sales** and **28.7K orders**, accounting for roughly **75% of total sales and orders**.
+* **Credit cards were the dominant payment method**, contributing **$7.52M (73.35%)** of total payment value.
+* **São Paulo was the largest customer market**, contributing **16.2K orders**, or approximately **42% of total orders**.
+* **Geographic demand was highly concentrated**, with São Paulo, Rio de Janeiro, and Minas Gerais together accounting for approximately **67% of all orders**.
+* **São Paulo generated the highest shipping charges**, at approximately **$0.70M**, representing around **41% of total shipping charges**.
+* The platform achieved an **approval rate of 99.98%**, indicating that almost all orders were successfully approved.
+* However, **approval speed remains an operational area for improvement**, with an average approval time of **628.45 minutes (~10.5 hours)** and approximately **83% of orders taking more than 12 hours** to be approved.
+* Monthly sales showed an overall upward trend through 2017, reaching a peak of approximately **$1.2M in December 2017**, before fluctuating during 2018.
 
 ## Skills Demonstrated
 - Data Cleaning & Preparation
