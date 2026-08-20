@@ -63,3 +63,15 @@ E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
 │   └── Dashboard_2_Customer_Operational_Insights.png
 │
 └── README.md
+## Skills Demonstrated
+
+- Data Cleaning & Preparation
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Intelligence & Dashboard Development
+- Data Modeling
+- DAX Measures
+- Power Query
+- Microsoft Excel
+- Power BI
+- Business & Operational Analysis
