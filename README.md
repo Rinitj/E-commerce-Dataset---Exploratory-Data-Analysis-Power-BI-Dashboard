@@ -53,18 +53,7 @@ The analysis provides insights into:
 - Monthly and day-of-week ordering patterns
 - Differences in business and operational performance across regions
 
-## Project Structure
-
-```text
-E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
-│
-├── Dashboard Screenshots/
-│   ├── Dashboard_1_Business_Overview.png
-│   └── Dashboard_2_Customer_Operational_Insights.png
-│
-└── README.md
 ## Skills Demonstrated
-
 - Data Cleaning & Preparation
 - Exploratory Data Analysis (EDA)
 - Data Visualization
@@ -75,3 +64,15 @@ E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
 - Microsoft Excel
 - Power BI
 - Business & Operational Analysis
+
+
+## Project Structure
+
+```text
+E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
+│
+├── Dashboard Screenshots/
+│   ├── Dashboard_1_Business_Overview.png
+│   └── Dashboard_2_Customer_Operational_Insights.png
+│
+└── README.md
