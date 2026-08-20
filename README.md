@@ -10,3 +10,8 @@ Excel was used for initial data exploration and preparation, while Power BI was 
 The project is presented through two dashboards:
 - Business Overview
 - Customer & Operational Insights
+## Tools & Technologies
+
+- **Microsoft Excel** – Data exploration, cleaning, filtering, sorting, and initial analysis
+- **Power BI** – Data modeling, DAX measures, visualization, and interactive dashboard development
+- **Power Query** – Data transformation and preparation
