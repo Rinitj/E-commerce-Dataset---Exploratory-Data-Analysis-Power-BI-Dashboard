@@ -28,3 +28,27 @@ Provides an overview of overall e-commerce performance, including sales, orders,
 Provides insights into customer and geographic trends, order processing, shipping, approval time, and operational performance.
 
 ![Dashboard 2 - Customer & Operational Insights](Dashboard%20Screenshots/Dashboard_2_Customer_Operational_Insights.png)
+## Analysis Areas
+
+The analysis focuses on the following areas:
+
+- **Sales Performance** – Analysis of sales, orders, and overall business performance
+- **Product Performance** – Comparison of product categories and order volumes
+- **Customer & Geographic Insights** – Analysis of orders and sales across different states
+- **Payment Analysis** – Distribution of orders across different payment methods
+- **Shipping Analysis** – Relationship between product weight and shipping charges
+- **Order Processing** – Analysis of approval time and order processing patterns
+- **Time-Based Trends** – Analysis of monthly and day-of-week order patterns
+
+- ## Key Insights
+
+The analysis provides insights into:
+
+- Overall sales and order performance
+- Product category performance and order contribution
+- Geographic distribution of orders across states
+- Customer payment method preferences
+- Shipping cost patterns in relation to product weight
+- Order approval and processing times
+- Monthly and day-of-week ordering patterns
+- Differences in business and operational performance across regions
