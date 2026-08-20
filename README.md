@@ -99,6 +99,5 @@ The current analysis can be extended with additional business data and analytica
 
 **Rinit Jain**
 
-**Skills:** Power BI · SQL · Python · Excel · Data Analysis · Data Visualization
 
 This project is part of my data analytics portfolio and demonstrates my ability to transform raw data into meaningful business insights using data analysis and visualization techniques.
