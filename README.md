@@ -63,7 +63,6 @@ The analysis focuses on the following areas:
 - Power BI
 - Business & Operational Analysis
 
-
 ## Project Structure
 
 ```text
@@ -74,6 +73,7 @@ E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
 │   └── Dashboard_2_Customer_Operational_Insights.png
 │
 └── README.md
+```
 
 ## Conclusion
 
