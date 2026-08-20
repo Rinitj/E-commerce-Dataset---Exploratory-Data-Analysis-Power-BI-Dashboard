@@ -21,10 +21,10 @@ The project is presented through two dashboards:
 
 Provides an overview of overall e-commerce performance, including sales, orders, product categories, payment methods, and key business metrics.
 
-![Dashboard 1 - Business Overview](Dashboard%20Screenshots/Dashboard%201%20-%20Business%20Overview.png)
+![Dashboard 1 - Business Overview](Dashboard%20Screenshots/Dashboard_1_Business_Overview.png)
 
 ### Dashboard 2 – Customer & Operational Insights
 
 Provides insights into customer and geographic trends, order processing, shipping, approval time, and operational performance.
 
-![Dashboard 2 - Customer & Operational Insights](Dashboard%20Screenshots/Dashboard%202%20-%20Customer%20%26%20Operational%20Insights.png)
+![Dashboard 2 - Customer & Operational Insights](Dashboard%20Screenshots/Dashboard_2_Customer_Operational_Insights.png)
