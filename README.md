@@ -1,72 +1,56 @@
-# Ecommerce Dataset - EDA Analysis
+# Ecommerce Dataset, EDA & Power BI Dashboard
 
-An exploratory data analysis project focused on understanding e-commerce sales, customer behavior, product performance, and operational efficiency using Power BI.
-## Project Overview
+Picture this, You run an e commerce business and someone hands you a slide that says 99.98% of your orders get approved. You'd probably frame that slide. Ship it to investors. Call it a day.
 
-This project analyzes an e-commerce dataset to identify trends and insights across sales performance, products, customers, payments, geography, and order processing.
+Except nobody asked how long that approval actually takes.
 
-Excel was used for initial data exploration and preparation, while Power BI was used for further analysis, calculated measures, interactive visualizations, and dashboard development.
+That question, the one hiding right behind the good looking number, is basically the whole reason I built this project. I took a raw e commerce dataset and pushed it through Excel and Power BI until it stopped being rows and columns and started telling me where this business was actually winning, and where it was quietly bleeding time it didn't know it was losing.
 
-The project is presented through two dashboards:
-- Business Overview
-- Customer & Operational Insights
-## Tools & Technologies
+## Project Scope
 
-- **Microsoft Excel** – Data exploration, cleaning, filtering, sorting, and initial analysis
-- **Power BI** – Data modeling, DAX measures, visualization, and interactive dashboard development
-- **Power Query** – Data transformation and preparation
-## Dashboards
+* **Dashboard 1, Business Overview**: the version you'd show a founder. Sales, orders, category performance, payment behavior.
+* **Dashboard 2, Customer & Operational Insights**: the version you'd show an operations lead. Geography, shipping, and the approval time problem hiding in plain sight.
 
-### Dashboard 1 – Business Overview
+## Tools & Methodology
 
-Provides an overview of overall e-commerce performance, including sales, orders, product categories, payment methods, and key business metrics.
+* **Excel**: filtering, cleaning, sorting, getting close enough to the raw data to spot hiding issues.
+* **Power Query**: shaping and prepping the data properly before modeling.
+* **Power BI**: data modeling, DAX measures, and interactive dashboards.
 
-![Dashboard 1 - Business Overview](Dashboard%20Screenshots/Dashboard_1_Business_Overview.png)
+## Dashboard 1: Business Overview
 
-### Dashboard 2 – Customer & Operational Insights
+![Dashboard 1 Business Overview](Dashboard%20Screenshots/Dashboard_1_Business_Overview.png)
 
-Provides insights into customer and geographic trends, order processing, shipping, approval time, and operational performance.
+* **Toys dominated the business**: roughly **$9.8M in sales** off **28.7K orders**, close to **75% of everything sold**.
+* **Credit cards ran the payment side**: **$7.52M**, or **73.35%** of total payment value.
 
-![Dashboard 2 - Customer & Operational Insights](Dashboard%20Screenshots/Dashboard_2_Customer_Operational_Insights.png)
+## Dashboard 2: Customer & Operational Insights
+
+![Dashboard 2 Customer Operational Insights](Dashboard%20Screenshots/Dashboard_2_Customer_Operational_Insights.png)
+
+* **São Paulo drove 42% of all orders** (16.2K), with Rio de Janeiro and Minas Gerais pushing the top three states to **67% of total volume**. Three regions doing almost all the work.
+* **São Paulo also led shipping cost**, around **$0.70M**, **41% of the total**, tracking directly with its order volume.
+* **The real twist**: a **99.98% approval rate** looks flawless, until you see the average approval time sits at **628.45 minutes (about 10.5 hours)**, and **83% of orders** took longer than 12 hours. This business isn't losing customers at approval, however it is testing their patience.
+* **Sales peaked around $1.2M in December 2017**, then turned choppier through 2018 It is a shift which should be questioned.
+
 ## Analysis Areas
 
-The analysis focuses on the following areas:
-
-- **Sales Performance** – Analysis of sales, orders, and overall business performance
-- **Product Performance** – Comparison of product categories and order volumes
-- **Customer & Geographic Insights** – Analysis of orders and sales across different states
-- **Payment Analysis** – Distribution of orders across different payment methods
-- **Shipping Analysis** – Relationship between product weight and shipping charges
-- **Order Processing** – Analysis of approval time and order processing patterns
-- **Time-Based Trends** – Analysis of monthly and day-of-week order patterns
-
-## Key Insights
-
-* **Toys dominated product performance**, generating approximately **$9.8M in sales** and **28.7K orders**, accounting for roughly **75% of total sales and orders**.
-* **Credit cards were the dominant payment method**, contributing **$7.52M (73.35%)** of total payment value.
-* **São Paulo was the largest customer market**, contributing **16.2K orders**, or approximately **42% of total orders**.
-* **Geographic demand was highly concentrated**, with São Paulo, Rio de Janeiro, and Minas Gerais together accounting for approximately **67% of all orders**.
-* **São Paulo generated the highest shipping charges**, at approximately **$0.70M**, representing around **41% of total shipping charges**.
-* The platform achieved an **approval rate of 99.98%**, indicating that almost all orders were successfully approved.
-* However, **approval speed remains an operational area for improvement**, with an average approval time of **628.45 minutes (~10.5 hours)** and approximately **83% of orders taking more than 12 hours** to be approved.
-* Monthly sales showed an overall upward trend through 2017, reaching a peak of approximately **$1.2M in December 2017**, before fluctuating during 2018.
+* Sales performance across the business
+* Product category performance
+* Customer and geographic patterns
+* Payment method distribution
+* Shipping cost versus product weight
+* Order approval time and processing
+* Monthly and day of week ordering rhythm
 
 ## Skills Demonstrated
-- Data Cleaning & Preparation
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Intelligence & Dashboard Development
-- Data Modeling
-- DAX Measures
-- Power Query
-- Microsoft Excel
-- Power BI
-- Business & Operational Analysis
 
-## Project Structure
+Data cleaning, exploratory analysis, dashboard design, data modeling, DAX, Power Query, Excel, Power BI, and the instinct to keep digging past a metric that looks fine on the surface.
 
-```text
-E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
+## Repository Structure
+
+```
+Ecommerce-Dataset-EDA-Power-BI-Dashboard/
 │
 ├── Dashboard Screenshots/
 │   ├── Dashboard_1_Business_Overview.png
@@ -75,29 +59,22 @@ E-commerce-Dataset---Exploratory-Data-Analysis-Power-BI-Dashboard/
 └── README.md
 ```
 
-## Conclusion
+## Key Takeaway
 
-This project demonstrates how raw e-commerce data can be transformed into meaningful business insights using Excel and Power BI. Through data preparation, exploratory analysis, data modeling, DAX measures, and interactive visualization, the project provides a consolidated view of sales, product performance, customer activity, payment behavior, geographic demand, and operational efficiency.
-
-The analysis highlights both strong areas of business performance and potential operational improvements, particularly in understanding regional demand and order approval times. The resulting dashboards provide a practical foundation for monitoring performance and supporting data-driven business decisions.
-
-Overall, the project demonstrates an end-to-end data analytics workflow, from data preparation and exploration to visualization and business insight generation.
+The key insight of this project is the realty, hiding behind the good story.the 99.98% that's secretly a 10.5 hour problem, the toy category quietly running the show, the three states carrying a business that looks national but isn't. 
+These isights are understanding the business rather than just reporting numbers. 
 
 ## Future Scope
 
-The current analysis can be extended with additional business data and analytical capabilities to provide deeper insights:
-
-* **Customer Segmentation:** Segment customers based on purchase frequency, order value, and purchasing behavior to identify high-value and repeat customers.
-* **Sales Forecasting:** Use historical monthly sales data to forecast future demand and support inventory and sales planning.
-* **Customer Retention Analysis:** Analyze repeat purchases and customer lifecycle patterns to identify opportunities to improve customer retention.
-* **Profitability Analysis:** Incorporate product cost, discounts, and profit data to evaluate profitability across products, categories, and regions.
-* **Delivery Performance:** Combine order and delivery timestamps with expected delivery dates to identify delivery delays and operational bottlenecks.
-* **Deeper Power BI Analysis:** Add drill-through pages, report tooltips, bookmarks, and advanced DAX calculations for more detailed exploration.
-* **Automated Reporting:** Connect the dashboard to a regularly updated data source to enable automated data refresh and ongoing performance monitoring.
+* Segment customers by frequency and spend to find real high value repeat buyers
+* Forecast future sales off the monthly trend to support planning
+* Dig into retention, who comes back and who disappears after one order
+* Bring in cost and discount data for real profitability by category and region
+* Compare order and delivery timestamps against expected delivery dates to catch actual shipping delays
+* Add drill through pages, tooltips, and bookmarks in Power BI for deeper exploration
+* Connect the dashboard to a live data source so it stays current instead of a single snapshot
 
 ## Author
 
 **Rinit Jain**
 
-
-This project is part of my data analytics portfolio and demonstrates my ability to transform raw data into meaningful business insights using data analysis and visualization techniques.
