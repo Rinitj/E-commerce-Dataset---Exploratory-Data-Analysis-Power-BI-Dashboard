@@ -6,6 +6,14 @@ Except nobody asked how long that approval actually takes.
 
 That question, the one hiding right behind the good looking number, is basically the whole reason I built this project. I took a raw e commerce dataset and pushed it through Excel and Power BI until it stopped being rows and columns and started telling me where this business was actually winning, and where it was quietly bleeding time it didn't know it was losing.
 
+## Business Questions Addressed
+
+* **Category Performance:** Which product categories are actually driving sales and order volume, and is the business as diversified as it looks.
+* **Payment Behavior:** Which payment methods dominate transaction value, and how concentrated is that reliance.
+* **Geographic Demand:** Where is customer demand actually concentrated, and does shipping cost track with it.
+* **Approval Speed vs Approval Rate:** Does a near perfect approval rate also mean a fast one, or is there a gap worth investigating.
+* **Seasonal Trend:** How did monthly sales move across 2017 and 2018, and where did that trend break.
+
 ## Project Scope
 
 * **Dashboard 1, Business Overview**: the version you'd show a founder. Sales, orders, category performance, payment behavior.
